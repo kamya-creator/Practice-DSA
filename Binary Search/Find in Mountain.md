@@ -1,3 +1,5 @@
+https://leetcode.com/problems/find-in-mountain-array/discuss/1721401/Java-or-Order-Agnostic-Binary-Search-or-Peak-element
+
 /**
  * // This is MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -18,7 +20,7 @@ class Solution {
         
         // Find in ascending part of array
         int ans = -1;
-        ans = OrderAgnosticBinarySearch(mountainArr, 0, PeakElementIndex-1,target);
+        ans = OrderAgnosticBinarySearch(mountainArr, 0, PeakElementIndex,target);
         if(ans == -1)
          {
             ans = OrderAgnosticBinarySearch(mountainArr, PeakElementIndex+1, mountainArr.length()-1,target);
@@ -38,14 +40,13 @@ class Solution {
         while(start < end)
         {
             int mid = start + (end- start)/2;
-            if(mountainArr.get(mid) > mountainArr.get(mid+1)  && mountainArr.get(mid) > mountainArr.get(mid-1))
-                return mid;
             
-            if(mid +1 < mountainArr.length() && mountainArr.get(mid) < mountainArr.get(mid+1) ) // Asscending part of array
+            
+            if( mountainArr.get(mid) < mountainArr.get(mid+1) ) // Asscending part of array
             {
                 start = mid+1;
             }
-            else if (mid +1 < mountainArr.length() && mountainArr.get(mid) > mountainArr.get(mid+1) )  // Descending Part of Array
+            else   // Descending Part of Array
                 end = mid;
         }
         
