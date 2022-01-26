@@ -1,3 +1,4 @@
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1718984/binary-search-solved-with-explanation
 /*
 Runtime: 1 ms, faster than 24.78% of Java online submissions for Find First and Last Position of Element in Sorted Array.
 Memory Usage: 44.3 MB, less than 9.12% of Java online submissions for Find First and Last Position of Element in Sorted Array.
