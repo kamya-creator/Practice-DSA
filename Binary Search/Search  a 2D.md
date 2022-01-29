@@ -1,6 +1,6 @@
 https://leetcode.com/problems/search-a-2d-matrix/discuss/1728990/Java-or-Code-with-Explanation
 
-
+```
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int ans = BinarySearch(matrix, target);
