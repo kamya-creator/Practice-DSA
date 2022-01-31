@@ -38,7 +38,6 @@ because array is sorted already then the pair in right half would follow  ODD EV
 At the end we would left with two elements and we just need to check weather they are equal or not
 
 ```
-
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         
