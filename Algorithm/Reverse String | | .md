@@ -1,3 +1,5 @@
+https://leetcode.com/problems/reverse-string-ii/discuss/1749330/Java-Multiple-Solution
+
 ```
 class Solution {
     public String reverseStr(String s, int k) {
