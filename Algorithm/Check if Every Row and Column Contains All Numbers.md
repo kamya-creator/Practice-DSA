@@ -6,7 +6,7 @@ If the set size and matrix row size are equal then searching column wise by trav
 */
 
 ## This approach took long time in execution
-This approach was folled in valid sudoko problem
+This approach was followed in valid sudoko problem
 ```
 class Solution {
     public boolean checkValid(int[][] matrix) {
