@@ -1,4 +1,4 @@
-
+https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/1755435/Detailed-Explanation-or-Java-or-HashMap
 ```
 /*
 Let's call string s as source string and p string as pattern String.
