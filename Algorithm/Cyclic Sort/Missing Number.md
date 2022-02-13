@@ -1,4 +1,5 @@
 Cyclic sort is important topic asked in Amazon and Google
+Pattern to recognize cyclic sort is, it is given range from [1,n] or [0, n]
 
 
 https://leetcode.com/problems/missing-number/
