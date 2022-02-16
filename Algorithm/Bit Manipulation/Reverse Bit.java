@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/reverse-bits/discuss/1776019/1ms-or-Approach-Explained-with-Comments
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
