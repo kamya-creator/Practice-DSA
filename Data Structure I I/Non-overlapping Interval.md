@@ -1,3 +1,4 @@
+```
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         if(intervals.length == 1) return 0;
