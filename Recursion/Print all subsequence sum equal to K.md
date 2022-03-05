@@ -34,7 +34,7 @@ class GFG {
 }
 
 ```
-
+```
 Time(sec) : 0.09Memory(MB) : 47.8828
 Output:
 [1, 2, 3, 4]
